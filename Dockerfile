@@ -1,4 +1,3 @@
-Copy
 FROM python:3.8
 
 RUN useradd wagtail && mkdir /app && chown wagtail /app
