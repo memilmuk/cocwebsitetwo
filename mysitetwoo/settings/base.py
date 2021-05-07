@@ -27,7 +27,7 @@ INSTALLED_APPS = [
     'home',
     'search',
     'blog',
-    
+
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
     'wagtail.embeds',
@@ -59,7 +59,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
-
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'wagtail.contrib.redirects.middleware.RedirectMiddleware',
 ]
 
