@@ -4,7 +4,7 @@ RUN useradd wagtail && mkdir /app && chown wagtail /app
 
 WORKDIR /app
 ENV PYTHONPATH=/app \
-    DJANGO_SETTINGS_MODULE=mysite.settings.production \
+    DJANGO_SETTINGS_MODULE=mysitetwoo.settings.production \
     PORT=8000 \
     WEB_CONCURRENCY=3
 
